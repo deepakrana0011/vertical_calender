@@ -184,6 +184,10 @@ class _MonthView extends StatelessWidget {
     return Column(
       children: [
         Card(
+          elevation: 2.0,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(15.0),
+          ),
           child: Column(
             children: <Widget>[
               /// display the default month header if none is provided
